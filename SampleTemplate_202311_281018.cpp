@@ -38,7 +38,7 @@
 
         {
             struct Second {
-           // Second(const std::string & s) { std::cout << "Second ctor\n"; this->s = s; }
+            Second(const std::string & s) { std::cout << "Second ctor\n"; this->s = s; }
             Second(Second && c) { std::cout << "Second move ctor\n"; s = std::move(c.s); }
             Second(const Second & c) { std::cout << "Second copy ctor\n"; this->s = c.s; };
             ~Second() { std::cout << "Second dtor\n"; }
