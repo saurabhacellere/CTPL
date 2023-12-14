@@ -3,7 +3,7 @@
 #include <string>
 
 
-
+void substract(int z) { if (z == 0) int x = 1 / z; // warn }
     void first(int id) {
         std::cout << "hello from " << id << ", function\n";
     }
