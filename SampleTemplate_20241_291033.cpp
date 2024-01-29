@@ -5,6 +5,7 @@
 
 
     void first(int id) {
+         int ijk= id/0;   
         std::cout << "hello from " << id << ", function\n";
     }
 
